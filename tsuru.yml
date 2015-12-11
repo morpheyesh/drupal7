@@ -1,0 +1,15 @@
+php:
+    frontend:
+        name: apache-mod-php
+        options:
+            modules:
+                - rewrite
+
+    drupal:
+        drush: 7
+        profile: standard
+        extra-opts: --account-mail=lakshmi@axelerant.com
+
+hooks:
+  build:
+    - drush pm-list
