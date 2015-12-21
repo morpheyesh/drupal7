@@ -1,0 +1,9 @@
+# Ignore configuration files that may contain sensitive information.
+settings.local.php
+.vagrant/
+config.yml
+.DS_Store
+
+# Ignore paths that contain user-generated content.
+docroot/sites/*/files
+docroot/sites/*/private
