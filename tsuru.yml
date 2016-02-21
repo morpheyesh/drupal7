@@ -9,7 +9,6 @@ php:
         drush: 7
         profile: standard
         extra-opts: --account-mail=lakshmi@axelerant.com
-        db-dump-url: http://54.152.75.119:9000/legacydb/load-legacy-legacyload-2015-12-13.sql.gz?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=2HLG5MNU5C18T4XLI8VZ%2F20151214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20151214T132209Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&X-Amz-Signature=3104bb1d910d5a43ef3dca0e35387fc62cb2864c26490251e0e2515170f491bb
 
 hooks:
   build:
